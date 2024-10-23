@@ -3,7 +3,7 @@ import styles from "./PlayScreen.module.css";
 import { useState, useEffect, useRef } from "react";
 
 const PlayScreen = () => {
-  const [rule, setRule] = useState(false);
+  const [rule, setRule] = useState(true);
   const [score, setScore] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
   const diceimg = useRef();
@@ -31,7 +31,7 @@ const PlayScreen = () => {
   };
 
   return (
-    <section className={styles.playscreen}>
+    <section className={`container ${styles.playscreen}`}>
       <div className={styles.scorebar}>
         <div className={styles.score}>
           <h1>{score}</h1>

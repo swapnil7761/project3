@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
 .container{
     max-width: 1400px;
     height: 100vh;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: auto auto;
     display: flex;
     justify-content: center;
     align-items: center;

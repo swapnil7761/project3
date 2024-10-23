@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: auto;
 }
 .scorebar{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;

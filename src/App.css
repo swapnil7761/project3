@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    all: unset;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 36px;
+    transition: .4s ease;
+}
+button:hover{
+    background-color: rgb(55, 54, 54);
+}

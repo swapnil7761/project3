@@ -1,0 +1,61 @@
+.playscreen{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.scorebar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px  40px 0 40px;
+}
+.score{
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.select{
+    text-align: center;
+}
+.select div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.usernotselect{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 1.5rem;   
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.userselected{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;   
+    font-weight: bolder;
+    cursor: pointer;
+}
+.rolldice{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+.rulebook{
+    margin: 10px auto;
+    background-color: rgb(247, 219, 219);
+    padding: 16px;
+}
+.rulebook p{
+    color: rgb(92, 92, 92);
+}
